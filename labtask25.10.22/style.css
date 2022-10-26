@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    padding: 6px;
+    background-color: black;
+
+}
+
+.logo img {
+    width: 200px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    color: aliceblue;
+    display: flex;
+}
+
+#header .container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.navbar ul li a {
+    color: aliceblue;
+}
+
+.slider .container {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-image: url(https://travelwp.physcode.com/wp-content/uploads/2016/09/bg-popular.jpg);
+}
+
+.slider .container p {
+    margin-bottom: 20px;
+
+}
+
+.slider .container h1 {
+    margin-bottom: 20px;
+}
+
+.slider .container a {
+    background-color: rgba(255, 179, 0, 1);
+    padding: 8px 15px;
+}
+
+.searchinput .container .inputs {
+    padding: 2rem 171px;
+    text-align: center;
+
+}
+
+.searchinput .container .inputs .box {
+    padding: 12px 20px;
+
+}
+
+.searchinput .container .inputs button {
+    padding: 12px 40px;
+    background-color: #ffb300;
+}
+
+.searchinput {
+    background-color: #434343;
+    box-shadow: 0 2px 0 0 rgb(255 179 0 / 60%);
+}
+.choosediv{
+    text-align: center;
+    padding: ;
+}
